@@ -4,6 +4,16 @@
         {
             "type": "pwa-node",
             "request": "launch",
+            "name": "Run index.js",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/src/index.js",
+            "runtimeExecutable": "/usr/local/bin/node"
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
             "name": "Run test.js",
             "skipFiles": [
                 "<node_internals>/**"
