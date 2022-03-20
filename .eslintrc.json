@@ -49,6 +49,7 @@
         "import/extensions": [
             "error",
             "ignorePackages"
-        ]
+        ],
+        "import/prefer-default-export": "off"
     }
 }
