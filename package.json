@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/okhee/songinfo-crawler#readme",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
     "music-metadata": "^7.12.2"
   },
   "devDependencies": {
