@@ -1,7 +1,6 @@
 {
     "parser": "@typescript-eslint/parser",
     "env": {
-        "commonjs": true,
         "es2021": true,
         "node": true
     },
@@ -12,7 +11,8 @@
         "plugin:@typescript-eslint/recommended"
     ],
     "parserOptions": {
-        "ecmaVersion": "latest"
+        "ecmaVersion": "latest",
+        "sourceType": "module"
     },
     "plugins": [
         "prettier",
@@ -41,6 +41,14 @@
             {
                 "code": 150
             }
+        ],
+        "arrow-parens": [
+            "error",
+            "as-needed"
+        ],
+        "import/extensions": [
+            "error",
+            "ignorePackages"
         ]
     }
 }
